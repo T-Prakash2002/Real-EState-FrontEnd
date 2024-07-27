@@ -30,6 +30,8 @@ const UserContextProvider = ({ children }) => {
         password,
       });
 
+      console.log(response);
+
       setUser(response.data.data);
       setIsLoggedIn(true);
 
